@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin:0;
+    padding:0;
+    box-sizing:border-box;
+font-family:'poppins',sans-serif;
+}
+body{
+    height: 100%;
+    width: 100vh;
+    display: flex;
+    margin-top:9rem;
+    padding-left:50%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg ,#0a0a0a,#3a4452);
+}
+.calulator{
+    border:5px solid #eef1f7;
+    padding:20px;
+     border-radius:16px;
+background:#0a0a0a62;
+box-shadow: 0 3px 15px rgba(142, 143, 146, 0.755);
+}
+input{
+    width: 320px;
+    border:none;
+    padding:24px;border-radius:5px;
+    margin:10px;
+    background: #0a0a0a3f;
+    box-shadow:0 3px 25px rgba(124, 126, 126, 0.453);
+    font-size:40px;
+    text-align: right;
+    cursor:pointer;
+    color:white;
+}
+input::placeholder{color:#eef4f5fa;}
+button{ 
+    border:none;
+    width:60px;
+    height:60px;
+    margin:10px;
+    border-radius: 5px;
+    background: #0a0a0ab2;
+    color:white;
+    font-size:20px;
+    scale:1.05;
+    transform:translate(0.5s),ease-in-out;
+}
+.equalbtn{
+    background-color:#fb7c14;
+}
+.operator{
+    color: greenyellow;
+}
+.calbox{
+    width:350px;
+    height:100%;
+    border: solid rgba(141, 224, 252, 0.516);
+    box-shadow:0 0  25px rgba(141, 224, 252, 0.553);
+
+}
+button:hover{ background-color:transparent;
+    box-shadow:0 0  25px rgba(141, 224, 252, 0.681);
+    scale:1.05;
+    transform:translate3d(0.5) ease-in-out;
+}
